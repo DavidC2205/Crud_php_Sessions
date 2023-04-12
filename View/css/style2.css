@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; /* divide la pantalla en dos columnas de igual ancho */
+    gap: 10px; /* espacio entre las dos columnas */
+    
+  }
+  
+  .formulario{
+    grid-column: 1 / 2; /* establece que el formulario ocupe la primera columna */
+    justify-content: center;
+  }
+
+  
